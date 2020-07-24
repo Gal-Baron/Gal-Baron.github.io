@@ -1,0 +1,51 @@
+body{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShywcYoMURminMu7gwQoVWSNGeu0G10kBaCX5hPhM8d8JrIlwd&usqp=CAU");
+	color: #555555;
+
+	font-size:16px; 
+	font-weight:normal;
+
+	line-height: 1.6em; /*can do also px */
+	margin:0;
+
+	font-family: "Comic Sans MS", cursive, sans-serif;
+
+	text-align: center;
+} 
+
+/*styling for the welcome header*/
+.welcome p{
+	color: #ccf8f7;
+	text-shadow: -1.5px 0 black, 0 1px black, 0 -1.5px black;
+	font-size: 40px;
+	padding: 10px;
+	padding-left: 40px;
+	line-height: 1.5em;
+}
+
+/*styling the button*/
+.button{
+	background-color: lightpink;
+	color: white; 
+	padding: 10px 30px;
+	margin: 65px;
+	border: none;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	width: 50%;
+}
+
+/*when go over the button*/
+.button:hover{
+	background: #FF69B4;
+	color: #fff;
+}
+
+.titles{
+	color: #f37dc5;
+	font-size: 20px;
+	padding-bottom: 20px;
+	line-height: 1.5em;
+	text-align: center;
+}

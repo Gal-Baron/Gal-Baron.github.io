@@ -1,0 +1,36 @@
+body{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShywcYoMURminMu7gwQoVWSNGeu0G10kBaCX5hPhM8d8JrIlwd&usqp=CAU");
+	color: #555555;
+
+	font-size:16px; 
+	font-weight:normal;
+
+	line-height: 1.6em; /*can do also px */
+	margin:0;
+
+	font-family: "Comic Sans MS", cursive, sans-serif;
+
+	text-align: center;
+} 
+
+a{ /* applies to any link on the page*/
+	text-decoration: none; /* gets rid of the underline*/
+	color: #008080;
+}
+
+a:hover{ /*when the link is touched */
+	color: black;
+}
+
+/* will apply to all buttons */
+.button{
+	background-color: lightpink;
+	color: white; 
+	padding: 10px 15px;
+	border: none;
+}
+
+.button:hover{
+	background: #FF69B4;
+	color: #fff;
+}

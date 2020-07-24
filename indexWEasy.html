@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Wythoff's game of Nim</title>
+		<link rel="stylesheet" type="text/css" href="index_css/style.css">
+	</head>
+	<body>
+		<div class="container">	
+			<div class="explenation">
+				<script src="nimWJsEasy.js"></script>
+				<h1>Wythoff's Nim-Easy</h1>
+				<p>Instructions: 
+					each player will choose one or both piles and a number of mathces to be taken from the pile (you must take at least one match-stick). If both piles were chosen the numbers of matches removed from each pile must be equal.
+				<br>How to win?
+				be the player who takes the last match from the last pile!</p>
+			</div>
+			<script src="nimWJsEasy.js"></script>
+			</div class="piles"> 
+				<div class="image">
+					<h2>Pile A</h2>
+					<p> <img src='images/match.png' alt="matches" height="200" width="200"/></p>
+					<p class="numbers" id="numA" value="-1">
+					</p>
+				</div>
+
+				<div class="image">
+					<h2>Both Piles</h2>
+					<p> <img src='images/match.png' alt="matches" height="200" width="200"/></p>
+					<p class="numbers" id="numC" value="-1">
+					</p>
+				</div>
+
+				<div class="image">
+					<h2>Pile B</h2>
+					<p> <img src='images/match.png' alt="matches" height="200" width="200"/></p>
+					<p class="numbers" id="numB" value="-1">
+					</p>
+				</div>
+
+				<div class="pile_choice"> <!-- the button the player chosses implies to the chosen pile -->
+					<h2 id="gameMove" ></h2>
+					<ul>
+						<li><a class="button" id="buttonA" onclick="getValueA()">Pile A</a></li>
+						<div class ="space" id="a"></div>
+						<script src="nimWJsEasy.js"></script>					
+						<li><a class="button" id="buttonBoth" onclick="getValueC()">Both Piles</a></li>
+						<br>
+						<div class ="space" id="c"></div>
+						<script src="nimWJsEasy.js"></script>
+						<li><a class="button" id="buttonB" onclick="getValueB()">Pile B</a></li>
+						<br>
+						<div class ="space" id="b"></div>
+						<script src="nimWJsEasy.js"></script>
+	
+					</ul>
+					<form>
+						<label class="amountQuestion" id="question"></label><br>
+						<label class="textSpace" id="textLine"></label><br>
+						<label class="submit" id="submitButton"></label><br>
+					</form>
+					<h2 id="invalid"></h2>
+				</div> 
+
+			</div>
+
+			<div class="clr"> </div> <!--to clear -->
+
+		</div> <!-- container -->
+
+		<div style="margin-top: 500px;"></div>
+
+	</body>
+</html> 

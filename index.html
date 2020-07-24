@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Game Of Nim</title>
+		<link rel="stylesheet" type="text/css" href="index_css/style.css">
+	</head>
+	<body>
+		<div class="container">	
+			<div class="explenation">
+				<script src="nimJs.js"></script>
+				<h1>Nim-Hard</h1>
+				<p>Instructions: each player will choose in his turn a non-empty pile (1,2 or 3)
+				and a number of mathces he would like to take from the pile (you must take atleast one).
+				<br>How to win?
+				be the player who takes the last match from the last pile!</p>
+			</div>
+			<script src="nimJs.js"></script>
+			</div class="piles"> 
+				<div class="image">
+					<h2>Pile A</h2>
+					<p> <img src='images/match.png' alt="matches" height="200" width="200"/></p>
+					<p class="numbers" id="numA" value="-1">
+					</p>
+				</div>
+
+				<div class="image">
+					<h2>Pile B</h2>
+					<p> <img src='images/match.png' alt="matches" height="200" width="200"/></p>
+					<p class="numbers" id="numB" value="-1">
+					</p>
+				</div>
+
+				<div class="image">
+					<h2>Pile C</h2>
+					<p> <img src='images/match.png' alt="matches" height="200" width="200"/></p>
+					<p class="numbers" id="numC" value="-1">
+					</p>
+				</div>
+
+				<div class="pile_choice"> <!-- the button the player chosses implies to the chosen pile -->
+					<h2>Choose a pile:</h2>
+					<ul id="list">
+						<li><a class="button" id="buttonA" onclick="getValueA()">Pile A</a></li>
+						<div class ="space" id="a"></div>
+						<script src="nimJs.js"></script>
+						<li><a class="button" id="buttonB" onclick="getValueB()">Pile B</a></li>
+						<br>
+						<div class ="space" id="b"></div>
+						<script src="nimJs.js"></script>
+						<li><a class="button" id="buttonC" onclick="getValueC()">Pile C</a></li>
+						<br>
+						<div class ="space" id="c"></div>
+						<script src="nimJs.js"></script>
+					</ul>
+					<form>
+						<label class="amountQuestion" id="question"></label><br>
+						<label class="textSpace" id="textLine"></label><br>
+						<label class="submit" id="submitButton"></label><br>
+					</form>
+					<h2 id="invalid"></h2>
+				</div> 
+
+			</div>
+
+			<div class="clr"> </div> <!--to clear -->
+
+		</div> <!-- container -->
+
+		<div style="margin-top: 500px;"></div>
+
+	</body>
+</html> 

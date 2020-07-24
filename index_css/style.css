@@ -1,0 +1,166 @@
+body{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShywcYoMURminMu7gwQoVWSNGeu0G10kBaCX5hPhM8d8JrIlwd&usqp=CAU");
+	color: #555555;
+
+	font-size:16px; 
+	font-weight:normal;
+
+	line-height: 1.6em; /*can do also px */
+	margin:0;
+
+	font-family: "Comic Sans MS", cursive, sans-serif;
+
+	text-align: center;
+} 
+
+
+
+
+a{ /* applies to any link on the page*/
+	text-decoration: none; /* gets rid of the underline*/
+	color: #008080;
+}
+
+a:hover{ /*when the link is touched */
+	color: black;
+}
+
+a:active{ /*when we click */
+	color: mediumorchid;
+
+}
+
+a:visited{/* if we were on that page */
+	color: grey;
+
+}
+
+
+
+
+.container{
+	width: 80%;
+	margin: auto; /*margin: top, right, left, bottom;
+	only 1 if all the same, 2 if top = bottom and sides equal.*/
+}
+
+
+/* will apply to all buttons */
+.button{
+	background-color: lightpink;
+	color: white; 
+	padding: 10px 15px;
+	border: none;
+	text-align: center;
+}
+
+.button:hover{
+	background: #FF69B4;
+	color: #fff;
+}
+
+
+.clr{
+	clear:both;
+}
+
+.explenation label{
+	color: #FF69B4;
+	font-size: 60px;
+}
+
+.explenation p{
+	background-color: #333;
+	color: #fff;
+
+/*border- lines outside the box*/
+	border: 5px pink dotted; /*size, color, style*/
+	/* for all: */
+	padding: 20px;  
+
+	/*margin- spacing outside the box */
+	margin: 20px 0; /* 20 for top & bottom, 0 for the sides*/
+}
+
+.explenation h1{ /* will style any h1 in this class*/
+	color: #FF69B4;
+	font-size: 45px;
+	font-weight: 800;
+	font-style: italic;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+
+}
+
+.piles{
+	/*float: left;*/
+ 	width: 33.33%;
+ 	padding: 5px;
+ 	box-sizing: border-box;
+}
+
+.pile_choice h2{
+	text-decoration-color: #AFEEEE;
+	font-size: 30px;
+	padding: 20px;
+	text-align: center;
+}
+
+.pile_choice ul{
+	display:inline-flex;
+	list-style: none;
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+
+.pile_choice li{
+	width: 33.3%;
+}
+
+.image{
+	float: left; 
+	width: 33.3%;
+	padding:5px;
+	box-sizing: border-box; /*applies the padding and border to the width */
+} 
+
+
+#main-image{
+	float: left;
+ 	width: 33.33%;
+ 	padding: 5px;
+}
+
+.numbers{
+	font-size: 50px; 
+	padding-top: 5px;
+	padding-bottom: 20px;
+	margin-bottom: 40px; 
+}
+
+/*.space{ 
+	width: 33.3%;
+	padding:5px;
+	box-sizing: border-box;
+}*/
+
+.textField{
+	width: 120px;
+	height: 10px;
+	padding: 30px;
+	margin: 30px;
+	text-align: center;
+}
+
+.amountQuestion{
+	color: #FF69B4;
+	font-size: 30px;
+}
+
+.pile_choice form{
+	width: 100%;
+
+}
